@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <title>ghdash</title>
+        <style>
+            body {
+            font-family: "Open Sans", sans-serif;
+            }
+            .mono {
+            font-family: "Fira Mono", monospace;
+            }
+        </style>
+    </head>
+    <body class="bg-[#282828]">
+        <div class="w-4/5 max-sm:w-full max-sm:px-4 mx-auto min-h-screen pt-8">
+            <main>
+                <div class="border-2 border-dotted border-[#928374] border-opacity-50 p-4 flex flex-col gap-4 items-center justify-center overflow-x-auto">
+                    <div class="hidden xl:flex xl:flex-col gap-4 items-center">
+                        <pre class="mono text-sm text-[#b8bb26] mt-4">
+          $$\                   $$\                     $$\
+          $$ |                  $$ |                    $$ |
+ $$$$$$\  $$$$$$$\         $$$$$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\
+$$  __$$\ $$  __$$\       $$  __$$ | \____$$\ $$  _____|$$  __$$\
+$$ /  $$ |$$ |  $$ |      $$ /  $$ | $$$$$$$ |\$$$$$$\  $$ |  $$ |
+$$ |  $$ |$$ |  $$ |      $$ |  $$ |$$  __$$ | \____$$\ $$ |  $$ |
+\$$$$$$$ |$$ |  $$ |      \$$$$$$$ |\$$$$$$$ |$$$$$$$  |$$ |  $$ |
+ \____$$ |\__|  \__|       \_______| \_______|\_______/ \__|  \__|
+$$\   $$ |
+\$$$$$$  |
+ \______/
+                </pre>
+                    </div>
+                    <div class="flex flex-col gap-4 items-center xl:hidden">
+                        <h1 class="mono text-4xl font-bold text-[#b8bb26] mt-4">gh dash</h1>
+                    </div>
+                    <div class="flex flex-col gap-4 items-center">
+                        <p class="text-[#fabd2f]">
+                            This dashboard helps <a class="text-[#8ec07c]" href="https://github.com/dhth" target="_blank" rel="noopener noreferrer">me</a> keep track of the health and maintenance needs of my GitHub repositories.
+                        </p>
+                    </div>
+                </div>
+                <nav class="mt-4">
+                    <h2 class="text-lg text-[#fabd2f] font-semibold">Reports</h2>
+                    <ul class="list-disc list-inside marker:text-[#83a598] mt-1">
+                        <li><a href="https://dhth.github.io/act3-runner/" class="text-[#83a598] hover:underline" target="_blank" rel="noopener noreferrer">actions</a></li>
+                        <li><a href="https://dhth.github.io/mrj-runner/" class="text-[#83a598] hover:underline" target="_blank" rel="noopener noreferrer">pull requests</a></li>
+                        <li><a href="https://dhth.github.io/unreleased-report/" class="text-[#83a598] hover:underline" target="_blank" rel="noopener noreferrer">unreleased code</a></li>
+                    </ul>
+                </nav>
+            </main>
+        </div>
+    </body>
+</html>

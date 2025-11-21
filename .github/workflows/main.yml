@@ -1,0 +1,23 @@
+name: main
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Create dist dir
+        run: |
+          mkdir dist
+          cp index.html dist
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "dist"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
