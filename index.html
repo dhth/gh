@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-        <title>ghdash</title>
+        <title>gh</title>
         <style>
             body {
             font-family: "Open Sans", sans-serif;
@@ -21,39 +21,37 @@
     <body class="bg-[#282828]">
         <div class="w-4/5 max-sm:w-full max-sm:px-4 mx-auto min-h-screen pt-8">
             <main>
-                <div class="border-2 border-dotted border-[#928374] border-opacity-50 p-4 flex flex-col gap-4 items-center justify-center overflow-x-auto">
-                    <div class="hidden xl:flex xl:flex-col gap-4 items-center">
-                        <pre class="mono text-sm text-[#b8bb26] mt-4">
-          $$\                   $$\                     $$\
-          $$ |                  $$ |                    $$ |
- $$$$$$\  $$$$$$$\         $$$$$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\
-$$  __$$\ $$  __$$\       $$  __$$ | \____$$\ $$  _____|$$  __$$\
-$$ /  $$ |$$ |  $$ |      $$ /  $$ | $$$$$$$ |\$$$$$$\  $$ |  $$ |
-$$ |  $$ |$$ |  $$ |      $$ |  $$ |$$  __$$ | \____$$\ $$ |  $$ |
-\$$$$$$$ |$$ |  $$ |      \$$$$$$$ |\$$$$$$$ |$$$$$$$  |$$ |  $$ |
- \____$$ |\__|  \__|       \_______| \_______|\_______/ \__|  \__|
-$$\   $$ |
-\$$$$$$  |
- \______/
-                </pre>
-                    </div>
-                    <div class="flex flex-col gap-4 items-center xl:hidden">
-                        <h1 class="mono text-4xl font-bold text-[#b8bb26] mt-4">gh dash</h1>
+                <div class="border-2 border-dashed border-[#92837480] max-sm:px-4 px-2 pt-4 pb-8 flex flex-col gap-4 items-center justify-center overflow-x-auto">
+                    <div class="xl:flex xl:flex-col gap-4 items-center">
+                        <pre class="mono text-sm text-[#fabd2f] mt-4 font-semibold">
+      __         
+     /\ \        
+   __\ \ \___    
+ /'_ `\ \  _ `\  
+/\ \L\ \ \ \ \ \ 
+\ \____ \ \_\ \_\
+ \/___L\ \/_/\/_/
+   /\____/       
+   \_/__/
+
+                        </pre>
                     </div>
                     <div class="flex flex-col gap-4 items-center">
-                        <p class="text-[#fabd2f]">
-                            This dashboard helps <a class="text-[#8ec07c]" href="https://github.com/dhth" target="_blank" rel="noopener noreferrer">me</a> keep track of the health and maintenance needs of my GitHub repositories.
+                        <p class="text-[#83a598]">
+                            This dashboard helps <a class="text-[#fabd2f] font-semibold" href="https://github.com/dhth" target="_blank" rel="noopener noreferrer">me</a> track the following across my GitHub repositories:
                         </p>
+                        <ul class="list-disc list-inside marker:text-[#83a598] mt-1">
+                            <li><a href="https://dhth.github.io/act3-runner/" class="text-[#83a598] hover:underline">the
+                                <span class="text-[#fabd2f] font-semibold">outcomes</span> of GitHub Actions runs</a>
+                            </li>
+                            <li><a href="https://dhth.github.io/mrj-runner/" class="text-[#83a598] hover:underline">logs
+                                from my "<span class="text-[#fabd2f] font-semibold">dependency-update</span> PR merger bot"</a>
+                            </li>
+                            <li><a href="https://unreleased.gh.dhruvs.space" class="text-[#83a598]
+                                hover:underline"><span class="text-[#fabd2f] font-semibold">unreleased</span> commits</a></li>
+                        </ul>
                     </div>
                 </div>
-                <nav class="mt-4">
-                    <h2 class="text-lg text-[#fabd2f] font-semibold">Reports</h2>
-                    <ul class="list-disc list-inside marker:text-[#83a598] mt-1">
-                        <li><a href="https://dhth.github.io/act3-runner/" class="text-[#83a598] hover:underline">actions</a></li>
-                        <li><a href="https://dhth.github.io/mrj-runner/" class="text-[#83a598] hover:underline">dependency updates</a></li>
-                        <li><a href="https://unreleased.gh.dhruvs.space" class="text-[#83a598] hover:underline">unreleased code</a></li>
-                    </ul>
-                </nav>
             </main>
         </div>
     </body>
